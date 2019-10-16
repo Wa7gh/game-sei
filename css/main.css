@@ -5,7 +5,7 @@
     user-select: none;
 } 
 
-html { background-image: url("file:///Users/macbook/Desktop/Project-1-Prompt/Tic%20tac%20toc/background.jpg");
+html { background-image: url("../background.jpg");
     background-size: 1500px;
     background-repeat: no-repeat;
 }
@@ -17,7 +17,7 @@ html { background-image: url("file:///Users/macbook/Desktop/Project-1-Prompt/Tic
 
 
 .home {
-    background-image: url("file:///Users/macbook/Desktop/Project-1-Prompt/Tic%20tac%20toc/WP-logo-xo.png");
+    background-image: url("../WP-logo-xo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: block;
@@ -182,6 +182,6 @@ img{
 
 #i {
 
-    background-image:url("file:///Users/macbook/Desktop/Project-1-Prompt/Tic%20tac%20toc/background.jpg");
+    background-image:url("../background.jpg");
     background-size: 1000px;
 }

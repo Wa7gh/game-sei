@@ -65,7 +65,7 @@ $('.click').on('click', function(event){
                     Swal.fire({
                         title: 'Oops ...!',
                         text: 'No one win , Try agin',
-                        imageUrl: 'file:///Users/macbook/Desktop/Project-1-Prompt/Tic%20tac%20toc/WP-logo-xo.png',
+                        imageUrl: './WP-logo-xo.png',
                         imageWidth: 300,
                         imageHeight: 200,
                         imageAlt: 'Custom image',
@@ -107,7 +107,7 @@ function checkWin(palye)
                 Swal.fire({
                     title: "Good job!" ,
                     text: `${marker[urTurn]} is the winer`,
-                    imageUrl: 'file:///Users/macbook/Desktop/Project-1-Prompt/Tic%20tac%20toc/x.png',
+                    imageUrl: './x.png',
                     imageWidth: 300,
                     imageHeight: 200,
                     imageAlt: 'Custom image',
@@ -120,7 +120,7 @@ function checkWin(palye)
                 Swal.fire({
                     title: "Good job!" ,
                     text: `${marker[urTurn]} is the winer`,
-                    imageUrl: 'file:///Users/macbook/Desktop/Project-1-Prompt/Tic%20tac%20toc/o.png',
+                    imageUrl: './o.png',
                     imageWidth: 300,
                     imageHeight: 200,
                     imageAlt: 'Custom image',
