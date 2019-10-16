@@ -5,6 +5,27 @@
     user-select: none;
 } 
 
+/* @media screen and (max-width:1699px) {
+
+    .fram{
+        width: 50%;
+    } 
+}  */
+
+@media (max-width: 600px) {
+    .body {
+      height: 150px;
+      width:10%;
+    }
+  }
+
+/* @media only screen and (max-width: 519px) {
+    .body {
+     width: 50%;
+     width: ;
+    }
+  } */
+
 html { background-image: url("../background.jpg");
     background-size: 1500px;
     background-repeat: no-repeat;
@@ -92,8 +113,8 @@ span {
 display: flex;
 
 background-color: rgba(24, 27, 32, 0.548);
-width: 700px;
-height: 650px;
+width: 90%;
+height: 65%;
 margin: 10px auto;
 margin-top: 40px;
 margin-bottom: 7px;
