@@ -1,0 +1,187 @@
+
+*{
+    margin: 0%;
+    padding: 0%;  
+    user-select: none;
+} 
+
+html { background-image: url("file:///Users/macbook/Desktop/Project-1-Prompt/Tic%20tac%20toc/background.jpg");
+    background-size: 1500px;
+    background-repeat: no-repeat;
+}
+
+
+
+/* welcome page  */
+
+
+
+.home {
+    background-image: url("file:///Users/macbook/Desktop/Project-1-Prompt/Tic%20tac%20toc/WP-logo-xo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    /* background-color: rgba(24, 27, 32, 0.671); */
+    width: 70px;
+    height: 5px;
+    margin: 9% auto;
+    /* margin-bottom: 7%; */
+    text-align: center;
+    padding: 18%;
+}
+
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #c90a0afb;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+    width: 130px; 
+    /* height: 88px; */
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 270px;
+    margin-inline-start: -19px;
+    
+  }
+  
+  .button em {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-family: 'Reenie Beanie', cursive;
+  }
+  
+  .button em:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover em {
+    padding-right: 25px;
+  }
+  
+  .button:hover em:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  /* start game  */
+
+
+span {
+    font-size: 75px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Zhi Mang Xing';
+}
+
+.body {
+display: flex;
+
+background-color: rgba(24, 27, 32, 0.548);
+width: 700px;
+height: 650px;
+margin: 10px auto;
+margin-top: 40px;
+margin-bottom: 7px;
+text-align: center;
+padding: 2px;
+
+}
+h1{
+    font-size: 60px;
+    /* padding-top: 1px; */
+    margin-bottom: 2px;
+    color: white;
+    /* height: 14px; */
+    margin-bottom: 20px;
+    font-family: 'Reenie Beanie', cursive;
+   
+}
+
+div[id^="row"] div {
+
+width: 90px;
+height: 90px;
+border: 2px solid  black;
+border-radius: 10px;
+float: left;
+
+}
+div[id^="row"] div:hover {
+
+    background-color: rgba(250, 43, 43, 0.322);
+    /* cursor: pointer; */
+    
+    }
+/* to target first chiled  */
+div[id^="row"] div:first-child{
+
+    border-left: none; 
+    /* to remove line  */
+    /* for mext version i hv to do this agine rememeber that  */
+}
+div[id^="row"] div:last-child{
+    border-right: none; 
+}
+ div[id="row1"] div {border-top: none;} 
+div[id="row4"] div {border-bottom: none;}
+
+div[id^="row"] {
+    clear : float ;
+    width: 380px;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+div.fram{
+    width: 385px;
+    overflow: hidden; 
+    margin: 0 auto ;
+    margin-top: 100px;
+}
+.Option1{
+    display: inline;
+    background-color: rgba(20, 6, 6, 0); 
+    color:white; 
+    border: 1px solid #33090609;
+    border-radius: 100px;
+    /* margin-top: 160px; 
+    margin-right: 10px ; */
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid b; */
+    margin-top: 30px;
+    margin-right: 20px;
+    
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.Option1:hover {
+    background-color: #e4190a5d;
+   
+  }
+
+
+
+
+#i {
+
+    background-image:url("file:///Users/macbook/Desktop/Project-1-Prompt/Tic%20tac%20toc/background.jpg");
+    background-size: 1000px;
+}
