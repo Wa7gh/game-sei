@@ -12,10 +12,10 @@
     } 
 }  */
 
-@media (max-width: 600px) {
+@media (max-width: 414px ){
     .body {
       height: 150px;
-      width:10%;
+      width:50%;
     }
   }
 
@@ -132,6 +132,9 @@ h1{
     font-family: 'Reenie Beanie', cursive;
    
 }
+
+
+
 
 div[id^="row"] div {
 

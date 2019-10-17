@@ -38,7 +38,7 @@ $(document).ready(function(){
 
 $('body').on('click', function(event){
     let id = event.target.id
-    console.log(event.target.id)
+    // console.log(event.target.id)
 });
 
 
