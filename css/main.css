@@ -12,13 +12,20 @@
     } 
 }  */
 
-@media (max-width: 414px ){
+/* @media (max-width: 414px ){
     .body {
       height: 50%;
       width:50%;
     }
-  }
+  } */
+  @media only screen and (max-width: 600px){
+    div.fram { 
 
+        width: 380px;
+    }
+
+
+  }
 /* @media only screen and (max-width: 519px) {
     .body {
      width: 50%;
@@ -114,7 +121,7 @@ display: flex;
 
 background-color: rgba(24, 27, 32, 0.548);
 width: 90%;
-height: 85%;
+height: 100%;
 margin: 10px auto;
 margin-top: 40px;
 margin-bottom: 7px;
