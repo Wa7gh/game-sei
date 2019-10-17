@@ -19,8 +19,9 @@ i uesed html,css and join of JavaScript,jQuery for DOM manipulation.
 
 1-first determine the outline of page and how I want to divide  in html.
 2- then move to modify design depend on the user experience.
-![landing page ](../Landing page.jpg)
-![start game ] (../)start game.jpg
+![landing page ](./Landing.png)
+
+![start game ](./start.png)
 
 
 ### User Stories
